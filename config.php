@@ -4,6 +4,6 @@ return array(
         'host' => 'localhost',
         'user' => 'root',
         'password' => '',
-        'dbname' => 'test'
+        'dbname' => `test`
     )
 );
