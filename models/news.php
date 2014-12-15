@@ -31,7 +31,7 @@ class News extends Clause{
         $this->db->query("
                     INSERT
                     INTO `news`(`title`,`text`)
-                    VALUES('$title' , '$text')
+                    VALUES('$title', '$text')
                    ");
     }
 }
